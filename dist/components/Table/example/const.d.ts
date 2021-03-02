@@ -9,8 +9,8 @@ export declare const columns: ({
     name: string;
     label: string;
     render: ({ value }: {
-        value: any;
-    }) => any;
+        value: React.ReactNode;
+    }) => React.ReactNode;
     hidden?: undefined;
 } | {
     id: number;
