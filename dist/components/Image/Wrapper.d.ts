@@ -1,3 +1,2 @@
-import { ContainerProps } from "./types";
-declare const Wrapper: import("styled-components").StyledComponent<"div", import("styled-components").DefaultTheme, ContainerProps, never>;
+declare const Wrapper: any;
 export default Wrapper;

@@ -1,3 +1,2 @@
-import { FlexProps } from "./types";
-declare const Flex: import("styled-components").StyledComponent<"div", import("styled-components").DefaultTheme, FlexProps, never>;
+declare const Flex: any;
 export default Flex;

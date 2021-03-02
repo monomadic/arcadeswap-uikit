@@ -7,7 +7,8 @@ pkgs.mkShell {
     nodePackages.typescript
     nodePackages.yarn
     nodePackages.rollup
+    nodePackages.create-react-app
   ];
 
-  shellHook = "";
+  shellHook = "npm install @rollup/plugin-typescript tslib react";
 }

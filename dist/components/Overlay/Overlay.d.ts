@@ -1,5 +1,2 @@
-import { OverlayProps } from "./types";
-declare const Overlay: import("styled-components").StyledComponent<"div", import("styled-components").DefaultTheme, {
-    role: "presentation";
-} & OverlayProps, "role">;
+declare const Overlay: any;
 export default Overlay;

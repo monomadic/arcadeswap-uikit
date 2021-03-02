@@ -1,3 +1,2 @@
-import { DefaultTheme } from "styled-components";
-declare const getColor: (color: string, theme: DefaultTheme) => string;
+declare const getColor: (color: string, theme: any) => string;
 export default getColor;
